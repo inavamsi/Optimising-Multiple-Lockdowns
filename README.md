@@ -9,3 +9,4 @@ To run locally
     cd Optimising-Multiple-Lockdowns
     streamlit run optimal_lockdown.py
 
+This will result in the webapp running on your localhost port.
