@@ -240,7 +240,7 @@ def main():
 	st.sidebar.write("------------------------------------------------------------------------------------")
 	
 	st.sidebar.write("Disease parameters")
-	beta=st.sidebar.slider("Rate of infection : Susceptible->Exposed", min_value=0.0 , max_value=1.0 , value=0.9 , step=0.01 , format=None , key=None )
+	beta=st.sidebar.slider("Rate of infection : Susceptible->Exposed", min_value=0.0 , max_value=1.0 , value=0.3 , step=0.01 , format=None , key=None )
 	mu=st.sidebar.slider("Rate of Exposed->Infected", min_value=0.0 , max_value=1.0 , value=0.7 , step=0.01 , format=None , key=None )
 	gamma=st.sidebar.slider("Rate of recovery : Infected:->Recovered", min_value=0.0 , max_value=1.0 , value=0.42 , step=0.01 , format=None , key=None )
 	delta=st.sidebar.slider("Rate of unimmunisation : Recovered->Susceptible", min_value=0.0 , max_value=1.0 , value=0.0 , step=0.01 , format=None , key=None )
