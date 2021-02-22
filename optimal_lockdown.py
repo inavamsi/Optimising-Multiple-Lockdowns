@@ -220,6 +220,7 @@ def main():
 	st.write("""
 	# Optimising lockdowns
 	Multiple lockdowns in a SEIRS model on a G(n,p) random graph.
+	For any queries please email ibe214@nyu.edu.
 	""")
 	st.write("------------------------------------------------------------------------------------")
 
