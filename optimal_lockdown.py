@@ -259,7 +259,8 @@ def main():
 
 	st.write("------------------------------------------------------------------------------------")
 
-	st.write("Goal is to minimise Cost function :")
+	st.header("Cost Function")
+	st.write("Goal is to minimise the cost function :")
 	st.write("Cost function =  a(Cumulative Infected days) + b(Cumulative Lockdown days)")
 	st.write(" -- 'a' refers to medical cost per infected per day")
 	st.write(" -- 'b' refers to economic loss of lockdown of an agent per day")
